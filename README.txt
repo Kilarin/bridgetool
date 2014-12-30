@@ -50,7 +50,7 @@ My son helped me with some ideas for this mod.  I got a lot of code examples fro
 Topywo suggested adding wear, correcting down stair orientation, and using not_in_creative_inventory.  Sokomine suggested adding width so that you could build 2 or 3 wide.
 
 [b]Dependencies:[/b]
-None
+soft depends on default, but without default you have no recipe.
 
 [b]Incompatibilities:[/b]
 Problems have been reported when using this mod with inventory tweak

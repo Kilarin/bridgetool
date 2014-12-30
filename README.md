@@ -60,10 +60,10 @@ Problems have been reported when using this mod with inventory tweak
 code CC0, textures CC BY-SA 3.0
 
 **github source:**<p>
-[https://github.com/Kilarin/minetest-mod-bridgetool](https://github.com/Kilarin/minetest-mod-bridgetool)
+[https://github.com/Kilarin/bridgetool](https://github.com/Kilarin/bridgetool)
 
 **Download:**<p>
-[https://github.com/Kilarin/minetest-mod-bridgetool/archive/master.zip](https://github.com/Kilarin/minetest-mod-bridgetool/archive/master.zip)
+[https://github.com/Kilarin/bridgetool/archive/master.zip](https://github.com/Kilarin/bridgetool/archive/master.zip)
 
 **To install:**<p>
 Simply unzip the file into your mods folder, then rename the resulting folder from bridgetool-master to bridgetool<p>

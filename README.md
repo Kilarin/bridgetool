@@ -51,7 +51,7 @@ My son helped me with some ideas for this mod.  I got a lot of code examples fro
 Topywo suggested adding wear, correcting down stair orientation, and using not_in_creative_inventory.  Sokomine suggested adding width so that you could build 2 or 3 wide.
 
 **Dependencies:**<p>
-default
+None
 
 **Incompatibilities:**<p>
 Problems have been reported when using this mod with inventory tweak
@@ -76,7 +76,7 @@ If you use this mod, please consider reviewing it on the MineTest Mod Database.<
 **Changelog**<p>
 --Version 2.2<p>
 Added new global enable_chat_warn at top of init.lua that can be set to NO if you don't want bridgetool warning messages to appear in chat.<p>
-Put the recipie inside an if checking for default so that  in the unlikely case someone is running this without default, they still could.  they would just have to use /giveme or creative mode to get the tools<p>
+Removed dependency upon default.  Put the recipie inside an if checking for default so that in the unlikely case someone is running this without default, they still could.  they would just have to use /giveme or creative mode to get the tools<p>
 Corrected two undeclared globals to locals.<p>
 Renamed the git repository to bridgetool-master to be in line with other mods.
 

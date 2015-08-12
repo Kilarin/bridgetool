@@ -1,6 +1,8 @@
+# Bridge Tool
+
 This mod adds a new "bridge tool" that makes placing stone (or glass, earth, or any material) while building a bridge in no-fly mode easy.
 
-**Bridge Tool Version 2.2**
+**Version 2.2**
 
 The bridge tool has 3 modes that can be switched by left clicking with the tool.<p>
 And you can switch the WIDTH of the path built by holding down the SNEAK key and left clicking.<p>
@@ -28,11 +30,13 @@ And when you select a **width** of 2 or 3 by holding down the sneak button and l
 If the bridge tool can not build where you asked it to, or if it runs out of material in the stack to the right of the tool, it will notify you of the problem via chat message.
 
 The bridge tool is crafted using 3 steel ingots in a v shape, and one mese crystal:<p>
+
 ```
 steel ingot,                     ,steel ingot
            ,    steel ingot      ,
            ,mese crystal fragment,
 ```
+
 ![alt text](http://i57.tinypic.com/1zgay6f.png "image")<p>
 The inventory image will switch from the tool itself to the mode image the first time you left click with the tool.
 

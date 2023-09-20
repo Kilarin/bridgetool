@@ -3,8 +3,8 @@
 -----------------------------
 
 --This code was written by Kilarin (Donald Hines)
---License:CC0, you can do whatever you wish with it.
---The numbers for the modes in the textures for this mode were copied and modified from
+--License:MIT
+--The numbers for the nodes in the textures for this mode were copied and modified from
 --the screwdriver mod by RealBadAngel, Maciej Kasatkin (which were originally licensed
 --as CC BY-SA
 --Topywo suggested adding wear, correcting down stair orientation, and using not_in_creative_inventory=1
@@ -299,16 +299,4 @@ for m = 1, 3 do
 end --for m
 
 
---temporary for backwards compatibility, remove this after a version or two
---since previously made tools will be named bridgetool_1 2 or 3, leaving this
---here ensures they will load and switch to bridgetool_11 etc on the first left click
-for m = 1, 3 do
-    minetest.register_tool("bridgetool:bridge_tool"..m, {
-      description = "Bridge Tool mode "..m,
-      inventory_image = "bridgetool_m"..m..".png",
-      wield_image = "bridgetool_wield.png^[transformR90",
-      groups = {not_in_creative_inventory=1},
-      on_place = bridgetool_place,
-      on_use = bridgetool_switchmode
-    })
-end --for m
+

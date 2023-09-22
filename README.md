@@ -38,6 +38,7 @@ steel ingot,                     ,steel ingot
 ```
 
 ![bridge tool crafting](https://i.imgur.com/BF9hdss.png)
+
 The inventory image will switch from the tool itself to the mode image the first time you left click with the tool.
 
 The bridge tool automatically orients **stairs** in the proper direction.  When building a 3 node wide stair, the tool will ensure that all stairs point the correct direction.  And when building forward, the tool will orient the stair downward.
@@ -64,11 +65,15 @@ Problems have been reported when using this mod with inventory tweak
 code MIT, textures CC BY-SA 3.0
 
 **github source:** https://github.com/Kilarin/bridgetool
+
 **github Download:** https://github.com/Kilarin/bridgetool/archive/master.zip
+
 **ContentDB:** https://content.minetest.net/packages/Kilarin/bridgetool
+
 **Minetest Forum:** https://forum.minetest.net/viewtopic.php?f=11&t=9126
 
 **Changelog**
+
 --Version 2.2
 Added new global enable_chat_warn at top of init.lua that can be set to NO if you don't want bridgetool warning messages to appear in chat.
 Removed dependency upon default.  Put the recipie inside an if checking for default so that in the unlikely case someone is running this without default, they still could.  they would just have to use /giveme or creative mode to get the tools
